@@ -33,7 +33,7 @@ public class Movment : MonoBehaviour
 
     void Rotat() 
     {
-       if (Input.GetKey(KeyCode.LeftArrow))
+       if (Input.GetKey(KeyCode.LeftArrow)) // Rotation to the left
         {
             ApplyRotation(rotation);
         }
