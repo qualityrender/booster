@@ -310,6 +310,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!198 &840207101 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 1054487940768818319, guid: 29c3d9a3b578f194a83a9b388c822bc0, type: 3}
+  m_PrefabInstance: {fileID: 9156568238914041271}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -616,6 +621,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 868083162040921799, guid: 29c3d9a3b578f194a83a9b388c822bc0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1054487940768818319, guid: 29c3d9a3b578f194a83a9b388c822bc0, type: 3}
+      propertyPath: looping
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9156568238260816739, guid: 29c3d9a3b578f194a83a9b388c822bc0, type: 3}
+      propertyPath: mainPart
+      value: 
+      objectReference: {fileID: 840207101}
     - target: {fileID: 9156568238695820916, guid: 29c3d9a3b578f194a83a9b388c822bc0, type: 3}
       propertyPath: m_RootOrder
       value: 5
