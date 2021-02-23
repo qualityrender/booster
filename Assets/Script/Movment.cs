@@ -10,10 +10,12 @@ public class Movment : MonoBehaviour
     [SerializeField] float speed = 0f;
     [SerializeField] float rotation = 0f;
     [SerializeField] AudioClip mainTrust;
+    [SerializeField]ParticleSystem mainPart;
     
     //CACHE
     Rigidbody rb;
     AudioSource audioSource;
+
 
     //STATE
     
@@ -42,10 +44,16 @@ public class Movment : MonoBehaviour
            if(!audioSource.isPlaying){
            audioSource.PlayOneShot(mainTrust);
            }
+           if(!mainPart.isPlaying)
+           {
+                mainPart.Play();
+           }
+
        }
        else
        {
            audioSource.Stop();
+           mainPart.Stop();
        }
 
    }
