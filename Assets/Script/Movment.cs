@@ -5,10 +5,18 @@ using UnityEngine;
 public class Movment : MonoBehaviour
 {
 
-    Rigidbody rb;
-    AudioSource audioSource;
+
+    // PARAMETERS
     [SerializeField] float speed = 0f;
     [SerializeField] float rotation = 0f;
+    [SerializeField] AudioClip mainTrust;
+    
+    //CACHE
+    Rigidbody rb;
+    AudioSource audioSource;
+
+    //STATE
+    
 
 
     // Start is called before the first frame update
@@ -16,6 +24,7 @@ public class Movment : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
         audioSource = GetComponent<AudioSource>();
+    
     }
 
     // Update is called once per frame
@@ -31,7 +40,7 @@ public class Movment : MonoBehaviour
        {
            rb.AddRelativeForce(Vector3.up * speed * Time.deltaTime);
            if(!audioSource.isPlaying){
-           audioSource.Play();
+           audioSource.PlayOneShot(mainTrust);
            }
        }
        else
@@ -59,5 +68,7 @@ public class Movment : MonoBehaviour
         transform.Rotate(Vector3.right * rotationThisFrame * Time.deltaTime);
         rb.freezeRotation = false; // Unfreezing so the rotation can take over
     }
+
+    
 
 }
