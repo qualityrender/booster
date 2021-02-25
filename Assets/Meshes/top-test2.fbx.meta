@@ -1,0 +1,186 @@
+fileFormatVersion: 2
+guid: 6abccef42eced3c46bde3890b60e9d55
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: -2374418595916027128
+    second: Maskin3 top|Blue pipeAction
+  - first:
+      74: -1652721947815789555
+    second: Maskin3 top|BottomAction
+  - first:
+      74: -2331016781455139486
+    second: Maskin3 top|Cap 1Action
+  - first:
+      74: 2674817366662023552
+    second: Maskin3 top|Cap 2Action
+  - first:
+      74: -3966747817636565963
+    second: Maskin3 top|cap.001Action
+  - first:
+      74: 3305468700905457445
+    second: Maskin3 top|cap.003Action.001
+  - first:
+      74: -7898007814874983221
+    second: Maskin3 top|cap.004Action
+  - first:
+      74: 5731880464900495707
+    second: Maskin3 top|cap.005Action
+  - first:
+      74: 5200235327938960891
+    second: Maskin3 top|cap.008Action
+  - first:
+      74: 472855014550582254
+    second: Maskin3 top|cap.009Action
+  - first:
+      74: -4536107039361235661
+    second: Maskin3 top|capAction
+  - first:
+      74: -8653020234300547840
+    second: Maskin3 top|CapAction.001
+  - first:
+      74: -4889877020853907782
+    second: Maskin3 top|Clam 2Action
+  - first:
+      74: 4176572168011599822
+    second: Maskin3 top|Green pipeAction
+  - first:
+      74: 671462713209273191
+    second: Maskin3 top|Left-topAction
+  - first:
+      74: -774174355450175856
+    second: Maskin3 top|Lock 1Action
+  - first:
+      74: -8741147822566763409
+    second: Maskin3 top|Lock 2Action
+  - first:
+      74: 1177171625972067547
+    second: Maskin3 top|Maskin3_midAction
+  - first:
+      74: -174555039154634085
+    second: Maskin3 top|Maskin_2.001Action
+  - first:
+      74: 2110669396047963711
+    second: Maskin3 top|MiddleAction
+  - first:
+      74: 2001567366253566541
+    second: Maskin3 top|Red columAction
+  - first:
+      74: 7330644768270827178
+    second: Maskin3 top|Red PipeAction
+  - first:
+      74: 6847254430248110946
+    second: Maskin3 top|Right-topAction
+  - first:
+      74: -2191547364802557870
+    second: Maskin3 top|RightAction
+  - first:
+      74: 1756599416011478056
+    second: Maskin3 top|topAction
+  - first:
+      74: -3798874831128496167
+    second: Maskin3 top|White startAction
+  - first:
+      74: 4730623838765746268
+    second: Maskin3 top|Yellow columAction
+  - first:
+      74: -5991236757266207396
+    second: Maskin3 top|Yellow pipeAction
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
